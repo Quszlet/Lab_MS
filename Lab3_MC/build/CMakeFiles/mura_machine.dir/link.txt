@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmura_machine.a CMakeFiles/mura_machine.dir/src/mura_machine.cpp.o
+/usr/bin/ranlib libmura_machine.a

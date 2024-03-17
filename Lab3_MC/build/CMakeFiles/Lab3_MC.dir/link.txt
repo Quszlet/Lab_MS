@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Lab3_MC.dir/src/main.cpp.o -o Lab3_MC  libmura_machine.a 

@@ -1,0 +1,4 @@
+/home/sletch/Projects_C++/MC/Lab3_MC/build/CMakeFiles/mura_machine.dir
+/home/sletch/Projects_C++/MC/Lab3_MC/build/CMakeFiles/Lab3_MC.dir
+/home/sletch/Projects_C++/MC/Lab3_MC/build/CMakeFiles/edit_cache.dir
+/home/sletch/Projects_C++/MC/Lab3_MC/build/CMakeFiles/rebuild_cache.dir
