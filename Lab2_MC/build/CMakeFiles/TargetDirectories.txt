@@ -1,4 +1,4 @@
-/home/sletch/Projects_C++/Lab2_MC/build/CMakeFiles/runge_kutta.dir
-/home/sletch/Projects_C++/Lab2_MC/build/CMakeFiles/Lab2_MC.dir
-/home/sletch/Projects_C++/Lab2_MC/build/CMakeFiles/edit_cache.dir
-/home/sletch/Projects_C++/Lab2_MC/build/CMakeFiles/rebuild_cache.dir
+/home/sletch/Projects_C++/MC/Lab2_MC/build/CMakeFiles/runge_kutta.dir
+/home/sletch/Projects_C++/MC/Lab2_MC/build/CMakeFiles/Lab2_MC.dir
+/home/sletch/Projects_C++/MC/Lab2_MC/build/CMakeFiles/edit_cache.dir
+/home/sletch/Projects_C++/MC/Lab2_MC/build/CMakeFiles/rebuild_cache.dir

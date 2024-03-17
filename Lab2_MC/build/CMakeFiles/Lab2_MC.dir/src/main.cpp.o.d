@@ -1,5 +1,5 @@
 CMakeFiles/Lab2_MC.dir/src/main.cpp.o: \
- /home/sletch/Projects_C++/Lab2_MC/src/main.cpp \
+ /home/sletch/Projects_C++/MC/Lab2_MC/src/main.cpp \
  /usr/include/stdc-predef.h /usr/local/include/sciplot/sciplot.hpp \
  /usr/local/include/sciplot/Canvas.hpp /usr/include/c++/13.2.1/variant \
  /usr/include/c++/13.2.1/initializer_list \
@@ -246,7 +246,7 @@ CMakeFiles/Lab2_MC.dir/src/main.cpp.o: \
  /usr/include/c++/13.2.1/bits/locale_facets_nonio.tcc \
  /usr/include/c++/13.2.1/bits/locale_conv.h \
  /usr/include/c++/13.2.1/bits/quoted_string.h \
- /home/sletch/Projects_C++/Lab2_MC/src/include/runge_kutta.h \
+ /home/sletch/Projects_C++/MC/Lab2_MC/src/include/runge_kutta.h \
  /usr/include/c++/13.2.1/list /usr/include/c++/13.2.1/bits/stl_list.h \
  /usr/include/c++/13.2.1/bits/allocated_ptr.h \
  /usr/include/c++/13.2.1/bits/list.tcc

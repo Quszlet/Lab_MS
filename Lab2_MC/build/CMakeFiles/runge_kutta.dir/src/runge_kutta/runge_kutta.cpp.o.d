@@ -1,7 +1,7 @@
 CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.o: \
- /home/sletch/Projects_C++/Lab2_MC/src/runge_kutta/runge_kutta.cpp \
+ /home/sletch/Projects_C++/MC/Lab2_MC/src/runge_kutta/runge_kutta.cpp \
  /usr/include/stdc-predef.h \
- /home/sletch/Projects_C++/Lab2_MC/src/include/runge_kutta.h \
+ /home/sletch/Projects_C++/MC/Lab2_MC/src/include/runge_kutta.h \
  /usr/include/c++/13.2.1/vector \
  /usr/include/c++/13.2.1/bits/requires_hosted.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h \

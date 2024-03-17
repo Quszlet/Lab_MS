@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sletch/Projects_C++/Lab2_MC
+CMAKE_SOURCE_DIR = /home/sletch/Projects_C++/MC/Lab2_MC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sletch/Projects_C++/Lab2_MC/build
+CMAKE_BINARY_DIR = /home/sletch/Projects_C++/MC/Lab2_MC/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -83,14 +83,14 @@ clean: CMakeFiles/Lab2_MC.dir/clean
 CMakeFiles/runge_kutta.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runge_kutta.dir/build.make CMakeFiles/runge_kutta.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runge_kutta.dir/build.make CMakeFiles/runge_kutta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sletch/Projects_C++/Lab2_MC/build/CMakeFiles --progress-num=3,4 "Built target runge_kutta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sletch/Projects_C++/MC/Lab2_MC/build/CMakeFiles --progress-num=3,4 "Built target runge_kutta"
 .PHONY : CMakeFiles/runge_kutta.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/runge_kutta.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sletch/Projects_C++/Lab2_MC/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sletch/Projects_C++/MC/Lab2_MC/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/runge_kutta.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sletch/Projects_C++/Lab2_MC/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sletch/Projects_C++/MC/Lab2_MC/build/CMakeFiles 0
 .PHONY : CMakeFiles/runge_kutta.dir/rule
 
 # Convenience name for target.
@@ -109,14 +109,14 @@ CMakeFiles/runge_kutta.dir/clean:
 CMakeFiles/Lab2_MC.dir/all: CMakeFiles/runge_kutta.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab2_MC.dir/build.make CMakeFiles/Lab2_MC.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab2_MC.dir/build.make CMakeFiles/Lab2_MC.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sletch/Projects_C++/Lab2_MC/build/CMakeFiles --progress-num=1,2 "Built target Lab2_MC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sletch/Projects_C++/MC/Lab2_MC/build/CMakeFiles --progress-num=1,2 "Built target Lab2_MC"
 .PHONY : CMakeFiles/Lab2_MC.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Lab2_MC.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sletch/Projects_C++/Lab2_MC/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sletch/Projects_C++/MC/Lab2_MC/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Lab2_MC.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sletch/Projects_C++/Lab2_MC/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sletch/Projects_C++/MC/Lab2_MC/build/CMakeFiles 0
 .PHONY : CMakeFiles/Lab2_MC.dir/rule
 
 # Convenience name for target.

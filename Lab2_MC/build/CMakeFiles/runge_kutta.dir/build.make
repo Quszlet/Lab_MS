@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sletch/Projects_C++/Lab2_MC
+CMAKE_SOURCE_DIR = /home/sletch/Projects_C++/MC/Lab2_MC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sletch/Projects_C++/Lab2_MC/build
+CMAKE_BINARY_DIR = /home/sletch/Projects_C++/MC/Lab2_MC/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/runge_kutta.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/runge_kutta.dir/progress.make
 include CMakeFiles/runge_kutta.dir/flags.make
 
 CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.o: CMakeFiles/runge_kutta.dir/flags.make
-CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.o: /home/sletch/Projects_C++/Lab2_MC/src/runge_kutta/runge_kutta.cpp
+CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.o: /home/sletch/Projects_C++/MC/Lab2_MC/src/runge_kutta/runge_kutta.cpp
 CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.o: CMakeFiles/runge_kutta.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sletch/Projects_C++/Lab2_MC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.o -MF CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.o.d -o CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.o -c /home/sletch/Projects_C++/Lab2_MC/src/runge_kutta/runge_kutta.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sletch/Projects_C++/MC/Lab2_MC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.o -MF CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.o.d -o CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.o -c /home/sletch/Projects_C++/MC/Lab2_MC/src/runge_kutta/runge_kutta.cpp
 
 CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sletch/Projects_C++/Lab2_MC/src/runge_kutta/runge_kutta.cpp > CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sletch/Projects_C++/MC/Lab2_MC/src/runge_kutta/runge_kutta.cpp > CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.i
 
 CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sletch/Projects_C++/Lab2_MC/src/runge_kutta/runge_kutta.cpp -o CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sletch/Projects_C++/MC/Lab2_MC/src/runge_kutta/runge_kutta.cpp -o CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.s
 
 # Object files for target runge_kutta
 runge_kutta_OBJECTS = \
@@ -93,7 +93,7 @@ runge_kutta_EXTERNAL_OBJECTS =
 librunge_kutta.a: CMakeFiles/runge_kutta.dir/src/runge_kutta/runge_kutta.cpp.o
 librunge_kutta.a: CMakeFiles/runge_kutta.dir/build.make
 librunge_kutta.a: CMakeFiles/runge_kutta.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sletch/Projects_C++/Lab2_MC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library librunge_kutta.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sletch/Projects_C++/MC/Lab2_MC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library librunge_kutta.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/runge_kutta.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runge_kutta.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/runge_kutta.dir/clean:
 .PHONY : CMakeFiles/runge_kutta.dir/clean
 
 CMakeFiles/runge_kutta.dir/depend:
-	cd /home/sletch/Projects_C++/Lab2_MC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sletch/Projects_C++/Lab2_MC /home/sletch/Projects_C++/Lab2_MC /home/sletch/Projects_C++/Lab2_MC/build /home/sletch/Projects_C++/Lab2_MC/build /home/sletch/Projects_C++/Lab2_MC/build/CMakeFiles/runge_kutta.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/sletch/Projects_C++/MC/Lab2_MC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sletch/Projects_C++/MC/Lab2_MC /home/sletch/Projects_C++/MC/Lab2_MC /home/sletch/Projects_C++/MC/Lab2_MC/build /home/sletch/Projects_C++/MC/Lab2_MC/build /home/sletch/Projects_C++/MC/Lab2_MC/build/CMakeFiles/runge_kutta.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/runge_kutta.dir/depend
 

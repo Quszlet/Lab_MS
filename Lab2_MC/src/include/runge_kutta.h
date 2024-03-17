@@ -20,16 +20,10 @@ private:
     Vector constants;
     List comparison_x1; 
     List values_for_r;
-
-
-    Vector ValuesForK2(Vector, double);
-    Vector ValuesForK3(Vector, double);
-    Vector ValuesForK4(Vector, double);
 public:
     RungeKutta(Func, Vector, Vector, Vector);
     std::pair<DoubleVector, Vector> K1(Vector, double, double, double);
-    DoubleVector K4(double, double, double);
-    std::pair<std::pair<DoubleVector, Vector> , PairErrorAndH> CalculateK4(double, double, double, double);
+    std::pair<std::pair<DoubleVector, Vector> , PairErrorAndH> Calculate(double, double, double, double);
 };
 
 #endif // _RUNGE_KYTTA_

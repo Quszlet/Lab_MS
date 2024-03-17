@@ -1,1 +1,1 @@
-/usr/bin/g++ CMakeFiles/Lab2_MC.dir/src/main.cpp.o -o Lab2_MC  librunge_kutta.a 
+/usr/bin/c++ CMakeFiles/Lab2_MC.dir/src/main.cpp.o -o Lab2_MC  librunge_kutta.a 
