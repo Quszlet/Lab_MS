@@ -17,8 +17,9 @@ private:
 public:
     MuriMachine(int state, int number_states, int number_inputs);
 
-    int transition(int signal);
-    int output();
+    int Transition(int signal);
+    int Output();
+    int GetState();
 };
 
 #endif // _MURA_MACHINE_H_

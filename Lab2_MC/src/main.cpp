@@ -15,7 +15,7 @@ int main() {
     double x0 = 0.0;
     double x = 13.0;
     double h = 0.1;
-    std::cout << std::setw(20) << "x1 " << std::setw(20) << "x2 " << std::setw(20) << "x3 " << std::endl;
+    // std::cout << std::setw(20) << "x1 " << std::setw(20) << "x2 " << std::setw(20) << "x3 " << std::endl;
 
     
     RungeKutta runge_kutta(functions_3order, variables, constants, params);
@@ -27,12 +27,12 @@ int main() {
     Vector y2 = y.first.first[1];
     Vector y3 = y.first.first[2];
 
-    for (int i = 0; i < y1.size(); i++)
-    {
-        std::cout << std::setw(20) << y1[i];
-        std::cout << std::setw(20) << y2[i];
-        std::cout << std::setw(20) << y3[i] << std::endl;
-    }
+    // for (int i = 0; i < y1.size(); i++)
+    // {
+    //     std::cout << std::setw(20) << y1[i];
+    //     std::cout << std::setw(20) << y2[i];
+    //     std::cout << std::setw(20) << y3[i] << std::endl;
+    // }
     
     
     sciplot::Plot2D plot1, plot2;

@@ -91,6 +91,6 @@ std::pair<std::pair<DoubleVector, Vector> , PairErrorAndH> RungeKutta::Calculate
         
         h = h / 2.0;
     } while (relative_error > acceptable);
-
+    std::cout << "H:" << h << std::endl;
     return {{y, interval}, {vec_error, state_h}};
 }
