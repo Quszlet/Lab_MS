@@ -4,6 +4,7 @@
 #include <iomanip>
 #include <vector>
 #include <random>
+#include <map>
 
 
 using std::cin;
@@ -28,8 +29,7 @@ int determine_initial_state(const double& number, const Vector& c) {
     
     for (int i = 0, j = 1; j < c.size(); i++, j++)
     {
-        double fs = c[i];
-        double sf = c[i] + c[j];
+        
         if (c[i] < number && number < (c[i] + c[j])) 
         {
             return i + 1;
@@ -47,8 +47,6 @@ int determine_next_state(const double& number, const int& index_state, const Dou
     
     for (int i = 0, j = 1; j < A[index_state].size(); i++, j++)
     {
-        double fs = A[index_state][i];
-        double sf = A[index_state][i] +A[index_state][j];
         if (A[index_state][i] < number && number < (A[index_state][i] +A[index_state][j])) 
         {
             return i + 1;
@@ -64,6 +62,8 @@ int main() {
     int n = 1; // входной алфавит из 1-го символа 
     int m = 3; // выходной алфвавит из 3-х символов
     int p = 3; // количество состояний
+    int h = 5;
+    std::map<string, double> count_output = {{"m", 0.0}, {"n", 0.0}, {"k", 0.0}};
     std::vector<string> states = {"a", "b", "c"};
     std::vector<string> input_words = {"1"};
     std::vector<string> output_words = {"m", "n", "k"};
@@ -90,12 +90,13 @@ int main() {
     int index_state = determine_initial_state(dis(gen), C);
     
     double r_1, r_2;
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < h; i++)
     {
         cout << input_words[0];
         cout << setw(field_width) << states[index_state];
 
-        r_1 = dis(gen);
+        r_1 = dis(gen);double operation1 = 3.0 / 5.0;
+        double operation2 = 100 * operation1;
 
         cout << setw(field_width) << r_1;
 
@@ -105,7 +106,18 @@ int main() {
 
         cout << setw(field_width) << output_words[index_state];
 
+        count_output[output_words[index_state]]++; 
+
         cout << endl;
     }
+     
+    cout << "Статистика:" << endl;
+
+    for (auto it = count_output.begin(); it != count_output.end(); it++)
+    {
+        
+        cout << "Выходной сигнал " << it->first << std::setprecision(0) <<": абсолютная частоста - " << it->second << ". Процент: " << std::setprecision(2) << (it->second / h) * 100 << "%" << endl;
+    }
     
+
 }
