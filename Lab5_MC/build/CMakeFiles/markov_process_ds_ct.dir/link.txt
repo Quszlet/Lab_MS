@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmarkov_process_ds_ct.a CMakeFiles/markov_process_ds_ct.dir/src/markov_process_ds_ct/markov_process_ds_ct.cpp.o
+/usr/bin/ranlib libmarkov_process_ds_ct.a

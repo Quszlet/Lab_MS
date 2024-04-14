@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Lab5_MC.dir/src/main.cpp.o -o Lab5_MC  libmarkov_process_ds_ct.a librunge_kutta.a 
