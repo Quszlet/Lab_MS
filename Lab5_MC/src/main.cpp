@@ -1,5 +1,6 @@
 #include <iostream>
 #include <iomanip>
+#include <sciplot/sciplot.hpp>
 #include <math.h>
 #include "markov_process_ds_ct.h"
 
@@ -18,7 +19,7 @@ int main() {
 
     double h = 1;
     double start = 0.0;
-    double end = 35.0;
+    double end = 35.0 + 1;
 
     auto result_probs_states = markov_process_ds_ct.calculateProbabiliteStates(h, start, end);
 
@@ -48,4 +49,39 @@ int main() {
     auto result_probs_max = markov_process_ds_ct.calculateMaxProbability();
     cout << "Сост. 1" << "  " << "Сост. 2" << "  " <<  "Сост. 3"  << "  " << "Сост. 4" << endl;
     cout << std::fixed <<  std::setprecision(4) << -result_probs_max[0] << "  " << -result_probs_max[1] << "  " <<  -result_probs_max[2]  << "  " << result_probs_max[3] << endl;
+
+    sciplot::Plot2D plot;
+    plot.size(1000,1000);
+    plot.fontName("Palatino");
+    plot.fontSize(12);
+
+    plot.xlabel("Интервал, время");
+    plot.ylabel("Значение состояний");
+
+    plot.legend()
+        .atOutsideTop()
+        .fontSize(10)
+        .displayHorizontal()
+        .displayExpandWidthBy(2);
+
+    Vector interval;
+
+    for (int i = start; i < end; i += h)
+    {
+        interval.push_back(i);
+    }
+    
+    
+    plot.drawCurve(interval, res1).label("state_1");
+    plot.drawCurve(interval, res2).label("state_2");
+    plot.drawCurve(interval, res3).label("state_3");
+    plot.drawCurve(interval, res4).label("state_4");
+
+    sciplot::Figure fig = {{plot}};
+   
+    sciplot::Canvas canvas = {{fig}};
+
+    canvas.size(500, 500);
+    
+    canvas.show(); 
 }

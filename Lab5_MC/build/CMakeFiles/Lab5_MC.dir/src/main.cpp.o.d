@@ -146,7 +146,20 @@ CMakeFiles/Lab5_MC.dir/src/main.cpp.o: \
  /usr/include/c++/13.2.1/bits/locale_conv.h \
  /usr/include/c++/13.2.1/bits/quoted_string.h \
  /usr/include/c++/13.2.1/sstream /usr/include/c++/13.2.1/bits/sstream.tcc \
- /usr/include/c++/13.2.1/math.h /usr/include/c++/13.2.1/cmath \
+ /usr/local/include/sciplot/sciplot.hpp \
+ /usr/local/include/sciplot/Canvas.hpp /usr/include/c++/13.2.1/variant \
+ /usr/include/c++/13.2.1/bits/enable_special_members.h \
+ /usr/include/c++/13.2.1/bits/parse_numbers.h \
+ /usr/include/c++/13.2.1/ext/aligned_buffer.h \
+ /usr/include/c++/13.2.1/vector \
+ /usr/include/c++/13.2.1/bits/stl_uninitialized.h \
+ /usr/include/c++/13.2.1/bits/stl_vector.h \
+ /usr/include/c++/13.2.1/bits/stl_bvector.h \
+ /usr/include/c++/13.2.1/bits/vector.tcc \
+ /usr/local/include/sciplot/Figure.hpp \
+ /usr/local/include/sciplot/Plot2D.hpp \
+ /usr/local/include/sciplot/Constants.hpp /usr/include/c++/13.2.1/limits \
+ /usr/local/include/sciplot/Default.hpp /usr/include/c++/13.2.1/cmath \
  /usr/include/math.h /usr/include/bits/math-vector.h \
  /usr/include/bits/libm-simd-decl-stubs.h \
  /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
@@ -154,7 +167,7 @@ CMakeFiles/Lab5_MC.dir/src/main.cpp.o: \
  /usr/include/bits/mathcalls-helper-functions.h \
  /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
  /usr/include/bits/iscanonical.h /usr/include/c++/13.2.1/bits/specfun.h \
- /usr/include/c++/13.2.1/limits /usr/include/c++/13.2.1/tr1/gamma.tcc \
+ /usr/include/c++/13.2.1/tr1/gamma.tcc \
  /usr/include/c++/13.2.1/tr1/special_function_util.h \
  /usr/include/c++/13.2.1/tr1/bessel_function.tcc \
  /usr/include/c++/13.2.1/tr1/beta_function.tcc \
@@ -166,28 +179,75 @@ CMakeFiles/Lab5_MC.dir/src/main.cpp.o: \
  /usr/include/c++/13.2.1/tr1/poly_hermite.tcc \
  /usr/include/c++/13.2.1/tr1/poly_laguerre.tcc \
  /usr/include/c++/13.2.1/tr1/riemann_zeta.tcc \
- /home/sletch/Projects_C++/MC/Lab5_MC/src/include/markov_process_ds_ct.h \
- /home/sletch/Projects_C++/MC/Lab5_MC/src/include/runge_kutta.h \
- /usr/include/c++/13.2.1/vector \
- /usr/include/c++/13.2.1/bits/stl_uninitialized.h \
- /usr/include/c++/13.2.1/bits/stl_vector.h \
- /usr/include/c++/13.2.1/bits/stl_bvector.h \
- /usr/include/c++/13.2.1/bits/vector.tcc \
- /usr/include/c++/13.2.1/functional \
+ /usr/local/include/sciplot/Enums.hpp \
+ /usr/local/include/sciplot/Palettes.hpp /usr/include/c++/13.2.1/map \
+ /usr/include/c++/13.2.1/bits/stl_tree.h \
+ /usr/include/c++/13.2.1/bits/node_handle.h \
+ /usr/include/c++/13.2.1/bits/stl_map.h \
+ /usr/include/c++/13.2.1/bits/stl_multimap.h \
+ /usr/include/c++/13.2.1/bits/erase_if.h \
+ /usr/local/include/sciplot/Plot.hpp \
+ /usr/local/include/sciplot/StringOrDouble.hpp \
+ /usr/local/include/sciplot/Utils.hpp /usr/include/c++/13.2.1/algorithm \
+ /usr/include/c++/13.2.1/bits/stl_algo.h \
+ /usr/include/c++/13.2.1/bits/algorithmfwd.h \
+ /usr/include/c++/13.2.1/bits/stl_heap.h \
+ /usr/include/c++/13.2.1/bits/uniform_int_dist.h \
+ /usr/include/c++/13.2.1/bits/stl_tempbuf.h \
+ /usr/include/c++/13.2.1/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/13.2.1/pstl/execution_defs.h \
+ /usr/include/c++/13.2.1/fstream \
+ /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
+ /usr/include/c++/13.2.1/bits/fstream.tcc \
+ /usr/include/c++/13.2.1/valarray \
+ /usr/include/c++/13.2.1/bits/valarray_array.h \
+ /usr/include/c++/13.2.1/bits/valarray_array.tcc \
+ /usr/include/c++/13.2.1/bits/valarray_before.h \
+ /usr/include/c++/13.2.1/bits/slice_array.h \
+ /usr/include/c++/13.2.1/bits/valarray_after.h \
+ /usr/include/c++/13.2.1/bits/gslice.h \
+ /usr/include/c++/13.2.1/bits/gslice_array.h \
+ /usr/include/c++/13.2.1/bits/mask_array.h \
+ /usr/include/c++/13.2.1/bits/indirect_array.h \
+ /usr/local/include/sciplot/specs/AxisLabelSpecs.hpp \
+ /usr/local/include/sciplot/specs/TextSpecsOf.hpp \
+ /usr/local/include/sciplot/specs/FontSpecsOf.hpp \
+ /usr/local/include/sciplot/specs/Specs.hpp \
+ /usr/local/include/sciplot/specs/BorderSpecs.hpp \
+ /usr/include/c++/13.2.1/bitset \
+ /usr/local/include/sciplot/specs/DepthSpecsOf.hpp \
+ /usr/local/include/sciplot/specs/LineSpecsOf.hpp \
+ /usr/local/include/sciplot/specs/DrawSpecs.hpp \
+ /usr/local/include/sciplot/ColumnIndex.hpp \
+ /usr/local/include/sciplot/specs/FillSpecsOf.hpp \
+ /usr/local/include/sciplot/specs/FilledCurvesSpecsOf.hpp \
+ /usr/local/include/sciplot/specs/PointSpecsOf.hpp \
+ /usr/local/include/sciplot/specs/FillStyleSpecs.hpp \
+ /usr/local/include/sciplot/specs/GridSpecs.hpp \
+ /usr/local/include/sciplot/specs/GridSpecsBase.hpp \
+ /usr/local/include/sciplot/specs/ShowSpecsOf.hpp \
+ /usr/local/include/sciplot/specs/HistogramStyleSpecs.hpp \
+ /usr/local/include/sciplot/specs/LegendSpecs.hpp \
+ /usr/local/include/sciplot/specs/FrameSpecsOf.hpp \
+ /usr/local/include/sciplot/specs/TitleSpecsOf.hpp \
+ /usr/local/include/sciplot/specs/OffsetSpecsOf.hpp \
+ /usr/local/include/sciplot/specs/TicsSpecs.hpp \
+ /usr/local/include/sciplot/specs/TicsSpecsBaseOf.hpp \
+ /usr/local/include/sciplot/specs/TicsSpecsMajor.hpp \
+ /usr/local/include/sciplot/specs/TicsSpecsMinor.hpp \
+ /usr/local/include/sciplot/Plot3D.hpp \
+ /usr/local/include/sciplot/specs/LayoutSpecs.hpp \
+ /usr/local/include/sciplot/Vec.hpp /usr/include/c++/13.2.1/functional \
  /usr/include/c++/13.2.1/bits/std_function.h \
  /usr/include/c++/13.2.1/unordered_map \
  /usr/include/c++/13.2.1/bits/unordered_map.h \
  /usr/include/c++/13.2.1/bits/hashtable.h \
  /usr/include/c++/13.2.1/bits/hashtable_policy.h \
- /usr/include/c++/13.2.1/ext/aligned_buffer.h \
- /usr/include/c++/13.2.1/bits/enable_special_members.h \
- /usr/include/c++/13.2.1/bits/node_handle.h \
- /usr/include/c++/13.2.1/bits/erase_if.h /usr/include/c++/13.2.1/array \
- /usr/include/c++/13.2.1/compare /usr/include/c++/13.2.1/bits/stl_algo.h \
- /usr/include/c++/13.2.1/bits/algorithmfwd.h \
- /usr/include/c++/13.2.1/bits/stl_heap.h \
- /usr/include/c++/13.2.1/bits/uniform_int_dist.h \
- /usr/include/c++/13.2.1/bits/stl_tempbuf.h /usr/include/c++/13.2.1/list \
- /usr/include/c++/13.2.1/bits/stl_list.h \
+ /usr/include/c++/13.2.1/array /usr/include/c++/13.2.1/compare \
+ /usr/include/c++/13.2.1/math.h \
+ /home/sletch/Projects_C++/MC/Lab5_MC/src/include/markov_process_ds_ct.h \
+ /home/sletch/Projects_C++/MC/Lab5_MC/src/include/runge_kutta.h \
+ /usr/include/c++/13.2.1/list /usr/include/c++/13.2.1/bits/stl_list.h \
  /usr/include/c++/13.2.1/bits/allocated_ptr.h \
  /usr/include/c++/13.2.1/bits/list.tcc
